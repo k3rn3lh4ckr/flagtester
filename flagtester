@@ -1,0 +1,14 @@
+#!/bin/bash
+usersha=$(echo "$1" | sha512sum)
+
+if [[ $usersha == "ec6cb603a08684c6cbe685e70baf119a7fc75a34cd8fe7ac4d24152cced4e6287ab2f7ea952246aeaa4e5c3737ce18de43bce55400c875115b94440c884742a8  -" ]]; then
+	echo "you got a flag!"
+elif [[ $usersha = "af2c1971060048f055bd2c915b7560b030eda4cca28252b7348dd79a2add362e87eec12389dda3da4c31ae760469b7fd5cb372dc362f7cf4107210c1b3e319cf  -" ]]; then
+	echo "you got a flag!"
+elif [[ $usersha = "a19030d3ed19214dda8300cc66cab3e10859dcdd767237cfda04162ed9c7dbf8a49c1df6feb0c107133a64290534b6ff95f44c18c4311d6316507c8b529ee78a  -" ]]; then
+	echo "you got a flag!"
+elif [[ $usersha = "441cd3029d910afcb1318745e5c53d58de8598f38f2cf6ac5dbe0c239fd4888668679da4c23fd8e9779f3409a867fdcfcf56392dd0cb2ea649f9fc0754bfbd3d  -" ]]; then
+	echo "you got a flag!"
+else
+	echo "no flag for you!"
+fi
