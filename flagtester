@@ -7,8 +7,10 @@ elif [[ $usersha = "af2c1971060048f055bd2c915b7560b030eda4cca28252b7348dd79a2add
 	echo "you got a flag!"
 elif [[ $usersha = "a19030d3ed19214dda8300cc66cab3e10859dcdd767237cfda04162ed9c7dbf8a49c1df6feb0c107133a64290534b6ff95f44c18c4311d6316507c8b529ee78a  -" ]]; then
 	echo "you got a flag!"
-elif [[ $usersha = "441cd3029d910afcb1318745e5c53d58de8598f38f2cf6ac5dbe0c239fd4888668679da4c23fd8e9779f3409a867fdcfcf56392dd0cb2ea649f9fc0754bfbd3d  -" ]]; then
+elif [[ $usersha = "7bb5d9d3f42e2c6560f31e0b06952e38bc22fd2eab65c8ceaa00be5b021abe67c97d8372d3cf5294e2c92451e2bc4becd2c0e389ef0129923cfded85a4f0e4b6  -" ]]; then
 	echo "you got a flag!"
+elif [[ $usersha = "f4c23f49e243943dcf2629026d676142474be1473454a84a06d05dfc4f1f478e239b2a1ff11af48f8184d9e524125eb43acf27ac48678ca5174b98aef717ede4  -" ]]; then
+        echo "you got a flag!"
 else
 	echo "no flag for you!"
 fi
